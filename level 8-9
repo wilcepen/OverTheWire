@@ -1,0 +1,7 @@
+The password for the next level is stored in the file data.txt and is the only line of text that occurs only once.
+
+In this case we can use piping or redirection
+1. Log in to level
+2. Use command sort and uniq with flag -u
+3. looked like sort data.txt | uniq -u
+4. Passowrd solved [ 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM ]
