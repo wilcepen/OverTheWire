@@ -1,7 +1,27 @@
-Kode tersimpan dalam folder yang berawalan (-). file yang berawalan dash (-) akan dianggap oleh commend-line sebagai option atau flag.
-Penyelsainnya gunakan (./) atau double dash (--).
+The password for the next level is stored in a file called - located in the home directory 📁.
 
-Commend dipelajari
-ls, cd, cat, file, du, find
+Note : In computing, a dashed filename refers to a file that begins with a dash (-) or hyphen. 
+These filenames are often problematic because command-line tools in Linux and Unix-like systems interpret a leading dash as the start 
+of a command option (e.g., -l for ls)
+rather than a filename
 
-Password : ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
+
+COMMAND LEARNED :
+- ls = to display all directories
+- cd = to change directorie
+- cat = open file/txt
+- du = to show storage usage in a directory
+- find = to search specific file with argument
+
+
+
+1.Log in using SSH with the username bandit1 and password 🔑 [ ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If ] 
+2.Use ls to display all directories
+3.The name of file is -
+4.Use methode  - Prefix with a Path  (./) = e.x :  cat ./-filename
+               - Use the double dash (--) =  e.c rm -- -file
+5.In this case, just use cat and followed (./)
+6.The password is displayed 🔑 [ 263JGJPfgU6LtdEvgfWU1XP5yac29mFx ] 
+
+
+
