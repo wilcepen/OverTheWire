@@ -1,0 +1,13 @@
+The password for the next level is stored in /etc/bandit_pass/bandit14 and can only be read by user bandit14. For this level, you don’t get the next password, but you get a private SSH key that can be used to log into the next level. Look at the commands that logged you into previous bandit levels, and find out how to use the key for this level.
+If you need help with this level: a hint file can be found in the home directory.
+Make sure to read the error messages as they are informative.
+
+Command learned.
+ssh, scp, umask, chmod, cat, nc, install
+
+how to use scp in this case is.
+I should in my mechine than use scp to copy file. ( it's like I take it from another sourch, not from another source then send it to my mechine)
+
+1. Use scp command to copy sshkey.private
+        looked like : scp -P 2220 bandit13@bandit.labs.overthewire.org: Downloads ( it's mean, the copy will in downlads directorie)
+2. You just got it, logged in to level 14 without password.
