@@ -15,13 +15,13 @@ COMMAND LEARNED :
 
 
 
-1.Log in using SSH with the username bandit1 and password 🔑 [ ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If ] 
+1.Log in using SSH with the username bandit1 and password 🔑 [ 6y2kwnwK6grgvwvpvLaa2T1cpFEKOhNR ] 
 2.Use ls to display all directories
 3.The name of file is -
 4.Use methode  - Prefix with a Path  (./) = e.x :  cat ./-filename
                - Use the double dash (--) =  e.c rm -- -file
 5.In this case, just use cat and followed (./)
-6.The password is displayed 🔑 [ 263JGJPfgU6LtdEvgfWU1XP5yac29mFx ] 
+6.The password is displayed 🔑 [ PK8fYLZg2hnHSz83plBL1iEPKdD3QToB ] 
 
 
 
