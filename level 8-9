@@ -5,7 +5,7 @@ In this case we can use piping or redirection
 2.The file name data.txt
 3. Use command sort and uniq with flag -u
 4. looked like sort data.txt | uniq -u
-5. Passowrd solved 🔑 [ 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM ]
+5. Passowrd solved 🔑 [ EjmOSvuAu7sGAHqHVcBDPirRe9T03kxl ]
 
 -------------------------------
 I realized the way the command works is very different.
