@@ -1,0 +1,14 @@
+🚩 The password for the next level is stored in a file readme in the homedirectory. Unfortunately, someone has modified .bashrc to log you out when you log in with SSH.
+
+
+🗒️ What I have learned :
+Shall has two types like bash, and sh.
+
+🗒️ What the different? 
+Bash automatically loads the .bashrc file upon login, which triggers the logout trap. 
+On the other hand, sh ignores .bashrc completely, allowing us to maintain an interactive session and bypass the restriction.
+
+1. use command ssh with flag -t ( Force  pseudo-terminal allocation ), and  add command with argument but in the double quotes 
+  ---- "cat /home/bandit18/readme"
+  //This means commanding it to run on the host terminal, rather than on your own computer's terminal.
+2. Password solved  🔑 [ KpsOfPkcP7i1FlIExk2QEjyt6dw8dxZI ]
