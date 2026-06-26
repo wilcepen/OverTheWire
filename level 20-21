@@ -4,4 +4,9 @@ learned:
 ssh, nc, cat, bash, screen, tmux, Unix ‘job control’ (bg, fg, jobs, &, CTRL-Z, …)
 
 
-1.
+1. Copy the previous password (level 20) than save it as prefrece, or just use echo command to stdout and piping with nc, or netcat to listen and make a port.
+2. Looked like echo "4pIjcunZ0fK2vmp3IwfG8Vf7VhxD6pOA" | nc -lp 9090 &
+3. And use the & symbol to keep the process running, while executing ./suconnect on port 9090
+4. Password solved [ bW9kBv5WC3P4yoDyf12LSdGuNz5ka6hY ]
+
+//So, `suconnect` stores the password from the previous level, and when connected via port 9090, it reads the text to compare it with that previous level's password.
