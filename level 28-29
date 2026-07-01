@@ -1,0 +1,4 @@
+In this level, the password was hidden in the latest version of the file. To find it, I checked the previous commit, where I noticed that something had been added back.
+I copied the first six characters of the commit hash and switched to that commit using git checkout <first-6-characters-of-the-hash>. After retrieving the password, I returned to the latest version with git checkout master.
+
+Password: Em7eGtqaMySwNFjCpwzzHhLhospOcdt0
