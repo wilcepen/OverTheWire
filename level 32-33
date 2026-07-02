@@ -1,0 +1,8 @@
+After logging in as usual, I was immediately dropped into the UPPERCASESHELL executable, where every command I typed was automatically converted to uppercase. Since Linux commands are case-sensitive, this made the shell almost impossible to use.
+
+The workaround was to run $0. The dollar sign ($) isn't affected by the uppercase conversion, so the shell expands $0 to the name of the current shell—sh in this case—and executes it. This starts a normal shell without the uppercase restriction.
+
+Once I had a regular shell, I could use commands normally again. Running whoami showed that I was logged in as bandit33, which allowed me to read /etc/bandit_pass/bandit33.
+
+
+PASSWORD SOLVED :u4P2CyPOwPGLe94RdD9Uo2FxFwvnFswM
